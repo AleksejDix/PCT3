@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About plugin",
+    "hello": "Hello"
+  },
+  "welcome": "Play around and see if this plugin is for you.",
+  "see-documentation": "For more information, please see {link}.",
+  "documentation": "documentation",
+  "pet": {
+    "dog": "My dog is {name}. Whoof!",
+    "cat": "My kitty is {name}. Meow!"
+  }
+}

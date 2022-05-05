@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O pluginu",
+    "hello": "Ahoj"
+  },
+  "welcome": "Zkus si pohrát a zjistit, jestli ti tenhle plugin přijde vhod.",
+  "see-documentation": "Víc informací najdeš {link}.",
+  "documentation": "v dokumentaci",
+  "pet": {
+    "dog": "Můj pes je {name}. Haf!",
+    "cat": "Moje kočka je {name}. Mňau!"
+  }
+}
