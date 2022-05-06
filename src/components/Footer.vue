@@ -20,7 +20,6 @@
 
 <script>
 export default {
-  name: "Footer",
   methods: {
     switchLanguage(e) {
       window.location = e.target.value;
@@ -28,15 +27,3 @@ export default {
   },
 };
 </script>
-
-<style>
-footer {
-  position: fixed;
-  width: 100%;
-  padding: 10px;
-  bottom: 0;
-  left: 0;
-  background: #fff;
-  border-top: 1px solid #eee;
-}
-</style>

@@ -5,10 +5,10 @@ export default {
     name: "English",
     messages: preloadedMessages
   },
-  cs: {
-    name: "Česky",
+  de: {
+    name: "Deutsch",
     load: () => {
-      return import("./cs.json");
+      return import("./de.json");
     }
   }
 };

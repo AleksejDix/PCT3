@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Vue Language Router</h1>
     <p>{{ $t("welcome") }}</p>
   </div>

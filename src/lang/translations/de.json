@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Zuhause",
+    "about": "Über uns",
+    "hello": "Hallo"
+  },
+  "welcome": "Willkomme",
+  "see-documentation": "Für mehr information, sehe {link}.",
+  "documentation": "Documentation",
+  "pet": {
+    "dog": "Mein Hund ist {name}. Wuf!",
+    "cat": "Meine Kartze ist {name}. Miau!"
+  }
+}

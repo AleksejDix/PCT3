@@ -4,28 +4,27 @@ import translations from "../lang/translations";
 import localizedURLs from "../lang/localized-urls";
 
 import Home from "../views/Home.vue";
-import About from "../views/About.vue";
 import Pet from "../views/Pet.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: Home
   },
   {
     path: "/about",
-    name: "Plugin info",
-    component: About
+    name: "about",
+    component: () => import("../views/About.vue"),
   },
   {
     path: "/pet/:animal/:name",
-    name: "Pet",
-    component: RouterView,
+    name: "pet-animal-name",
+    component: () => import("../views/Pet.vue"),
     children: [
       {
         path: "info",
-        name: "Pet details",
+        name: "pet-id",
         component: Pet
       }
     ]
